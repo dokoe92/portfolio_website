@@ -1,0 +1,5 @@
+blue: #002043 oder R:0 G:32 B:67
+
+yellow: #D3B04D oder R:211 G:176 B:77
+
+green: #2AC28A oder R:42 G:194 B: 138

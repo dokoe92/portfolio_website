@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: aqua;
+    position: sticky;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left:2rem;
+}
+
+/*hero section*/
+
+#hero{
+    height: 20rem;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+
+}
+
+.hero-wrapper{
+    display:grid;
+    grid-template-areas: 
+    "a . b"
+    ". button ."
+    "c . d";
+    gap: 2rem;
+
+}
+
+.box {
+    border: 1px solid black;
+    padding: 1em;
+    width: 2rem;
+    height: 2rem;
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area:b;
+}
+.c{
+    grid-area:c;
+}
+.d{
+    grid-area:d;
+}
+
+.contact-me-button{
+    grid-area: button;
+    height: 20px;
+    width: 20px;
+}
+
+
+/*about me section*/
+#about-me{
+    background-color: bisque;
+    height: 20rem;
+    
+}
+
+.about-me-wrapper{
+    display: grid;
+    grid-template-areas: 
+    "text-field image-field";
+}
+
+.text-container-about-me{
+    display:flex;
+    grid-area: text-field;
+    flex-direction: column;
+    flex:1;
+    width: 50%;
+}
+
+.image-container-about-me{
+    display:flex;
+    grid-area: image-field;
+    align-items: center;
+}
+
+/*Skills section*/
+#skills{
+    background-color: violet;
+    height: 20rem;
+}
+
+.skills-wrapper{
+    display: grid;
+    grid-template-areas:
+    "text-field image-field";
+}
+
+.text-container-skills{
+    display:flex;
+    grid-area: text-field;
+    flex-direction: column;
+    flex:1;
+    width: 50%;
+}
+
+.image-container-skills{
+    display:flex;
+    grid-area: image-field;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skills-grid{
+    display:grid;
+    grid-template-areas:
+    "1 2"
+    "3 4"
+}
+
+/*Portfolio-section*/
+#portfolio{
+    background-color: green;
+    height: 20rem;
+}
+
+.portfolio-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.projects-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5em;
+}
+
+
+/*footer*/
+footer{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
